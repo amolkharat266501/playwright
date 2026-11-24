@@ -2,7 +2,7 @@ import{test,expect} from '@playwright/test'
 let initialHeight=0
 test("Scroll the page", async ({page})=>{
 await page.goto("https://www.booksbykilo.in/children-books")
-
+/*
 while(true){
    await page.evaluate(()=> window.scrollTo(0,document.body.scrollHeight))// scroll bottom of the page
 await page.waitForTimeout(5000)
@@ -19,5 +19,6 @@ return document.body.scrollHeight
    console.log("End")
 
 }
+   */
 
 })

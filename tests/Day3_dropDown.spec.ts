@@ -37,7 +37,7 @@ test("validate the url", async ({ page }) => {
 })
 
 
-test.only("multiSelectOption", async ({ page }) => {
+test("multiSelectOption", async ({ page }) => {
 
     const multiSelectDropdown = page.locator('#colors');
 

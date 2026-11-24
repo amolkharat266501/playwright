@@ -34,7 +34,7 @@ page.on("dialog",async dailog =>{
 await page.getByRole("button", {name: 'Prompt'}).click()
 
 })
-test.only("Popup handaling", async ({page})=>{
+test("Popup handaling", async ({page})=>{
 await page.goto("https://sdetqa.vercel.app/autoplay")
 
 page.on("dialog",async dailog =>{

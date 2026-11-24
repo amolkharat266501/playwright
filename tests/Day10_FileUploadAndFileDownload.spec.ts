@@ -14,7 +14,7 @@ await page.waitForTimeout(5000)
 await expect (singleFileStatus).toHaveText(/Single file selected/)
 })
 
-test.only("FileDownload", async ({ page }) => {
+test("FileDownload", async ({ page }) => {
 
     await page.goto("https://sdetqa.vercel.app/autoplay");
 

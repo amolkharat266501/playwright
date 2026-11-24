@@ -20,7 +20,7 @@ test("Test case1:DyanmicWebTable Handaling",async ({page})=>{
      console.log(cpuload)
 })
 
-test.only("Test case2:DyanmicWebTable Handaling",async ({page})=>{
+test("Test case2:DyanmicWebTable Handaling",async ({page})=>{
 
     await page.goto("https://sdetqa.vercel.app/autoplay")
      const tableRow= await page.locator("#taskTable tbody tr").all()

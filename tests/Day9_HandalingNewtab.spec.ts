@@ -30,7 +30,7 @@ test("Handling new tab", async ({ page }) => {
 
 });
 
-test.only("handaling new tab case 2",  async ({browser})=>{
+test("handaling new tab case 2",  async ({browser})=>{
     const context= await browser.newContext()
     const page= await context.newPage()
 
